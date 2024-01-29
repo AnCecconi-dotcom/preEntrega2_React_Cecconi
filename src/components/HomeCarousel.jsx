@@ -1,8 +1,8 @@
 import BannerMac from   "../assets/products/mac/videoBanner.mp4"
-import BanneriPhone from "../assets/products/iPhone/videoBanner2.mp4";
+import BanneriPhone from "../assets/products/iPhone/video.mp4";
 import  BanneriPad  from "../assets/products/iPad/iPadBanner.mp4";
 import  BanneriWatch  from "../assets/products/iWatch/iWatchBanner_2.webm";
-import  BannerairPods  from "../assets/products/airPods/airPodBanner.jpeg";
+import  BannerairPods  from "../assets/products/airPods/video.mp4";
 
 export const HomeCarousel = () => {
     return (
@@ -29,7 +29,7 @@ export const HomeCarousel = () => {
                         <video src={BanneriWatch} muted autoPlay loop></video>
                     </div>
                     <div className="carousel-item" >
-                        <img src={BannerairPods}  alt="airPods" />
+                        <video src={BannerairPods} muted autoPlay loop alt="airPods"> </video>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

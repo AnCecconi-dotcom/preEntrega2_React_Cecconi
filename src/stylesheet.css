@@ -1,16 +1,22 @@
 #carouselExampleIndicators .carousel-item video {
     object-fit: cover;
     object-position: center;
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     overflow: hidden;
 }
 
-#carouselExampleIndicators .carousel-item img {
-    object-fit: contain;
-    object-position: center;
-    height: 85vh;
-    width: 100%;
-    overflow: hidden;
+
+#carouselExampleIndicators .carousel-item:before {
+    content: "";
+    background-image: linear-gradient(
+        to bottom,
+        transparent, rgba(0,0,0,0.5)
+    );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
