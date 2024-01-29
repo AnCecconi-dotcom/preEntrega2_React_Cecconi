@@ -1,0 +1,16 @@
+#carouselExampleIndicators .carousel-item video {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    height: 85vh;
+    width: 100%;
+    overflow: hidden;
+}
+
