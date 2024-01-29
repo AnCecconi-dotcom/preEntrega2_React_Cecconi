@@ -1,7 +1,7 @@
 import BannerMac from   "../assets/products/mac/videoBanner.mp4"
 import BanneriPhone from "../assets/products/iPhone/video.mp4";
 import  BanneriPad  from "../assets/products/iPad/iPadBanner.mp4";
-import  BanneriWatch  from "../assets/products/iWatch/iWatchBanner_2.webm";
+import  BanneriWatch  from "../assets/products/iWatch/videoBanner.webm";
 import  BannerairPods  from "../assets/products/airPods/video.mp4";
 
 export const HomeCarousel = () => {
