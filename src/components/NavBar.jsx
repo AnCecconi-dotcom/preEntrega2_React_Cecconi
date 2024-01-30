@@ -4,7 +4,7 @@ import { Logo } from "./Logo"
 
 export const NavBar = () => {
     return (
-        <div className="bg-dark text-light m-0 p-1">
+        <div className="bg-dark text-light m-0 p-1 ">
             <div className="container my-3">
                 <div className="row">
                     <div className="col-md-2 justify-content-end d-flex align-items-center ">

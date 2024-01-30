@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { ItemCount } from "./ItemCount";
+import { ItemDetailContainer } from "./ItemDetailContainer";
 import { ItemList } from "./ItemList";
 import  arrayProductos  from "./json/productos.json";
 
@@ -22,6 +23,7 @@ export const ItemListContainer = () => {
   return (
     <>
       <ItemList items={items} />
+      <ItemDetailContainer />
     </>
   )
 }
