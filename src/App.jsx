@@ -7,7 +7,7 @@ export const App = () => {
     <>
     <NavBar />
     <HomeCarousel />
-    <ItemListContainer greeting = {'El sitio se encuentra en mantenimiento'} greeting2 = {'Disculpe las molestias'}/>
+    <ItemListContainer />
     </>
   )
 }
