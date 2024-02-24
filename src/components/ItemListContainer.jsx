@@ -3,6 +3,7 @@ import  arrayProductos  from "./json/productos.json";
 import { HomeCarousel } from "./HomeCarousel";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
+import { HomePage } from "./HomePage";
 
 export const ItemListContainer = () => {
   const [items, setItems] = useState([]);
@@ -23,6 +24,7 @@ export const ItemListContainer = () => {
   return (
     <>
       {id ? "" : <HomeCarousel />}
+      {id ? "" : <HomePage />}
       <ItemList items={items} />
     </>
   )
