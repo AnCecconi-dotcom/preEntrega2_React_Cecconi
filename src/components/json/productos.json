@@ -1,5 +1,5 @@
 [
-    {"id": 1, 
+    {"idx": 1, 
     "title":"MacBook Air 13, M1 chip",
     "description":"The most affordable Mac laptop to get things done on the go.", 
     "image": "https://i.ibb.co/wWY2Gqz/mac-Book-Air-13.png", 
@@ -8,7 +8,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 2,
+    {"idx": 2,
      "title":"MacBook Air 15, M2 chip",
     "description":"Strikingly thin and fast so you can work, play, or create anywhere.", 
     "image": "https://i.ibb.co/zR1CkV5/mac-Book-Air-13-15.png",
@@ -17,7 +17,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 3, 
+    {"idx": 3, 
     "title":"MacBook Pro 14, M3 Max chip",
     "description":"The most advanced Mac laptops for demanding workflows.", 
     "image": "https://i.ibb.co/mvhN436/mac-Book-Pro-14-16.png", 
@@ -25,7 +25,7 @@
     "category":"Mac",
     "stock": 15},
 
-    {"id": 4, 
+    {"idx": 4, 
     "title":"MacBook Pro 16, M3 Pro chip",
     "description":"Game-changing graphics performance.", 
     "image": "https://i.ibb.co/mvhN436/mac-Book-Pro-14-16.png", 
@@ -34,7 +34,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 5, 
+    {"idx": 5, 
     "title":"MacBook Pro 16, M3 Max chip",
     "description":"For the first time, MacBook Pro features hardware-accelerated ray tracing. Combined with the new graphics architecture, it enables pro apps to deliver up to two and a half times faster rendering performance.", 
     "image": "https://i.ibb.co/mvhN436/mac-Book-Pro-14-16.png", 
@@ -43,7 +43,7 @@
     "characteristics": "",
     "stock": 15},
     
-    {"id": 6, 
+    {"idx": 6, 
     "title":"iMac",
     "description":"The world’s best all‑in‑one computer, now supercharged by the M3 chip. With a stunning 24‑inch display1 that gives you all the space you need and an iconic design that livens up any space, iMac is perfect for work and play.", 
     "image": "https://i.ibb.co/4M3F3vY/iMac.png", 
@@ -52,7 +52,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 7, 
+    {"idx": 7, 
     "title":"iPhone 14 ",
     "description":"As amazing as ever.", 
     "image": "https://i.ibb.co/RDwM4Md/iPhone14.jpg", 
@@ -61,7 +61,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 8, 
+    {"idx": 8, 
     "title":"iPhone 15",
     "description":"A total powerhouse.", 
     "image": "https://i.ibb.co/y6wXSSr/iPhone15.jpg", 
@@ -70,7 +70,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 9, 
+    {"idx": 9, 
     "title":"iPhone 15 Pro",
     "description":"The ultimate iPhone.", 
     "image": "https://i.ibb.co/x2zmF5H/i-Phone15-Pro.jpg", 
@@ -79,7 +79,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 10, 
+    {"idx": 10, 
     "title":"iPad Air 11",
     "description":"iPad Air lets you immerse yourself in whatever you’re reading, watching, or creating. The 10.9-inch Liquid Retina display features advanced technologies like True Tone, P3 wide color, and an antireflective coating.", 
     "image": "https://i.ibb.co/Sv3hTW8/iPad-Air.jpg", 
@@ -88,7 +88,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 11, 
+    {"idx": 11, 
     "title":"iPad Pro 13",
     "description":"Astonishing performance. Incredibly advanced displays. Superfast wireless connectivity. Next-level Apple Pencil capabilities. Powerful new features in iPadOS. The ultimate iPad experience.", 
     "image": "https://i.ibb.co/RP1ZYBy/iPad-Pro.jpg", 
@@ -97,7 +97,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 12, 
+    {"idx": 12, 
     "title":"Apple Watch Series 9",
     "description":"Our most powerful chip in Apple Watch ever. A magical new way to use your Apple Watch without touching the screen. A display that’s twice as bright.", 
     "image": "https://i.ibb.co/W3S3cBj/i-Watch-Sport-Band-Black.jpg", 
@@ -106,7 +106,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 13, 
+    {"idx": 13, 
     "title":"Apple Watch Ultra 2",
     "description":"TApple Watch Ultra 2 is crafted for unparalleled performance. The lightweight titanium case is rugged and corrosion resistant, and it's raised to protect the sapphire crystal from edge impacts.", 
     "image": "https://i.ibb.co/WchLS7y/i-Watch-Sport-Loop-Black.jpg", 
@@ -115,7 +115,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 14, 
+    {"idx": 14, 
     "title":"AirPods Pro 2nd gen",
     "description":"With Personalized Spatial Audio that places sound all around you.", 
     "image": "https://i.ibb.co/dQ6x8YR/air-Pods-Pro-2nd-Gen.jpg", 
@@ -124,7 +124,7 @@
     "characteristics": "",
     "stock": 15},
 
-    {"id": 15, 
+    {"idx": 15, 
     "title":"AirPods Max",
     "description":"A perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. The ultimate personal listening experience is here.", 
     "image": "https://i.ibb.co/9qR4Kz3/air-Pods-Max.png", 

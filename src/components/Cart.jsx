@@ -10,7 +10,7 @@ export const Cart = () => {
     return (
       <div className="container">
         <div className="row">
-          <div className="col text-center">
+          <div className="col text-center my-2">
             <div className="alert alert-dark my-4" role="alert">
               No products found in cart!
             </div>
@@ -24,14 +24,14 @@ export const Cart = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col text-center">
+        <div className="col text-center my-2">
           <h1>Your cart</h1>
         </div>
       </div>
 
       <div className="row">
         <div className="col">
-          <table className="table table-dark table-striped">
+          <table className="table">
             <thead>
               <tr>
                 <th scope="col"></th>
@@ -44,23 +44,23 @@ export const Cart = () => {
             </thead>
             <tbody>
               {cart.map(product =>
-              <tr key={product.id}>
-                <td className="text-center">
-                  <img src={product.image} alt={product.name} width={80} />
-                </td>
-                <td>{product.title}</td>
-                <td>U$D {product.price}</td>
-                <td>{product.quantity}</td>
-                <td>U$D {product.quantity * product.price}</td>
-                <td className="text-center">
-                  <a href="#" onClick={() => {removeItem(product.id)}}className="btn btn-light my-4 px-5">Remove</a>  
-                </td>
-              </tr>
+                <tr key={product.id}>
+                  <td className="text-center align-middle">
+                    <img src={product.image} alt={product.name} width={80} />
+                  </td>
+                  <td className="align-middle">{product.title}</td>
+                  <td className="align-middle">U$D {product.price}</td>
+                  <td className="align-middle">{product.quantity}</td>
+                  <td className="align-middle">U$D {product.quantity * product.price}</td>
+                  <td className="text-center align-middle">
+                    <a href="#" onClick={() => { removeItem(product.id) }} className="btn btn-dark my-4 px-5">Remove</a>
+                  </td>
+                </tr>
               )}
               <tr>
-                <td className="text-center" colSpan={5}>Total Amount</td>
-                <td className="text-center"> U$D {totalPricePurchase()}</td>
-
+                <td className="text-center" colSpan={4}>Total Amount</td>
+                <td className="text-start align-middle"> U$D {totalPricePurchase()}</td>
+                <td>&nbsp;</td>
               </tr>
             </tbody>
           </table>
@@ -69,6 +69,7 @@ export const Cart = () => {
         <div className="row">
           <div className="col text-center">
             <Link to={"/"} className="btn btn-dark my-4 px-5">Go back</Link>
+            <Link to={"/checkout"} className="btn btn-dark ms-4 my-4 px-5">Checkout</Link>
           </div>
         </div>
       </div>
